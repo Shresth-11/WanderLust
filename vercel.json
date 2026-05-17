@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "app.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "app.js"
+      }
+    ],
+    "env": {
+      "ATLASDB_URL": "mongodb+srv://Shresth:rQbUIvTot4j6WUFy@cluster0.dmn7z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+      "SECRET": "cxnsfdngnfdn"
+    }
+  }
+  
