@@ -4,7 +4,7 @@ A full-stack Airbnb clone built with the **MERN stack (MongoDB, Express.js, Reac
 
 ### 🌐 Live Demo
 [🔗 [Visit Website](https://airbnb-lilac-seven.vercel.app)
-](https://airbnb-czvox7bkx-shresths-projects-62985c18.vercel.app/listings)
+](https://airbnb-git-main-shresths-projects-62985c18.vercel.app/listings)
 ---
 
 ## ✨ Features
