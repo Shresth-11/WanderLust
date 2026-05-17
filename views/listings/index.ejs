@@ -3,25 +3,37 @@
 <style>
   #filters {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
     align-items: center;
+    scrollbar-width: none; /* Firefox */
+    padding-bottom: 0.5rem;
+  }
+
+  #filters::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
   }
 
   .filter {
     font-size: 1.3rem;
     text-align: center;
-    margin-right: 2rem;
-    margin-top: 2rem;
-    opacity: 0.8;
+    margin-right: 2.5rem;
+    margin-top: 1.5rem;
+    opacity: 0.6;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    flex-shrink: 0;
   }
 
   .filter:hover {
     opacity: 1;
     cursor: pointer;
+    transform: scale(1.05);
   }
 
   .filter p {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
   }
 
   .tax-info {
@@ -29,15 +41,21 @@
   }
 
   .tax-toggle {
-    border: 1px solid black; 
+    border: 1px solid #ddd; 
     border-radius: 1rem;
-    padding:1rem;
-    margin-left: 2rem;
-    margin-top: 2px;
+    padding: 0.8rem 1rem;
+    margin-left: auto;
+    margin-top: 1.5rem;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s ease;
   }
-    
+
+  .tax-toggle:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
 </style>
 
 
