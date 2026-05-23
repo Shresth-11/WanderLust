@@ -1,4 +1,4 @@
-# 🏡 Wanderlust (Airbnb Clone)
+# 🏡 Wanderlust 
 
 [![Node.js](https://img.shields.io/badge/Node.js-v22.12-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-v4.21-000000?logo=express&logoColor=white)](https://expressjs.com/)
