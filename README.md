@@ -5,7 +5,7 @@ WanderLust is a full-stack web application designed for listing and reviewing va
 The project is built using the MVC (Model-View-Controller) design pattern with Node.js, Express, MongoDB, and EJS.
 
 ## Live Demo
-Check out the live version of the project here: [WanderLust on Vercel](https://wanderlust-lilac-seven.vercel.app/listings)
+Check out the live version of the project here: [WanderLust on Vercel](https://wanderlust-kappa-nine.vercel.app/listings)
 
 ## Features
 - **User Authentication:** Secure sign-up, login, and logout using Passport.js.
